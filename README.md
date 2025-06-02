@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![GitHub](https://img.shields.io/github/license/yourusername/accmo)
+![GitHub](https://img.shields.io/github/license/0xlax/accmo)
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 ![Terminal](https://img.shields.io/badge/terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)
 
