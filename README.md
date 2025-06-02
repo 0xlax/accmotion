@@ -1,15 +1,35 @@
-# Accmo - Accelerometer Motion Visualizer
+# 📱  Accelerometer Motion Visualizer
 
-A real-time accelerometer data visualization tool that displays your device's motion in a terminal UI. Built with Rust, it uses a web interface to capture device motion and displays the data in a beautiful TUI with graphs and gauges.
+<div align="center">
+
+![GitHub](https://img.shields.io/github/license/yourusername/accmo)
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Terminal](https://img.shields.io/badge/terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)
+
+A real-time accelerometer data visualization tool that transforms your device's motion into beautiful terminal graphics.
+
+<img src="assets/term.mp4" alt="Terminal Demo" width="600"/>
+
+</div>
 
 ## Features
 
 - Real-time accelerometer data capture from mobile devices
 - Terminal-based UI with live graphs and gauges
-- Historical data visualization
-- Color-coded axis representation
+- Historical data visualization with smooth scrolling
+- Color-coded axis representation (X=Red, Y=Green, Z=Blue)
+- Secure HTTPS communication
+- iOS and Android support
+
+## Demo
 
 
+<div align="center">
+  <video width="100%" controls>
+    <source src="assets/term.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## Installation
 
@@ -29,7 +49,7 @@ cd ..
 cargo run
 ```
 
-## Usage
+## 📱 Usage
 
 1. Start the server:
 ```bash
@@ -44,18 +64,12 @@ cargo run
    - Move your device around to see the visualization
 
 3. In the terminal:
-   - Watch the real-time graphs and gauges update
-   - Press 'q' to quit the application
+   -  Watch the real-time graphs and gauges update
+   - ⌨️Press 'q' to quit the application
 
-## Architecture
 
-- `src/main.rs`: Main server implementation with HTTPS and WebSocket support
-- `src/tui.rs`: Terminal UI implementation using ratatui
-- `static/`: Web interface files
-  - `index.html`: Main webpage
-  - `script.js`: Client-side JavaScript for accelerometer access
 
-## Controls
+## ⌨️ Controls
 
-- 'q': Quit the application
-- The web interface automatically connects and starts sending data once permission is granted
+- `q`: Quit the application
+- Web interface automatically connects once permission is granted
